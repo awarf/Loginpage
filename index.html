@@ -2,51 +2,54 @@
 <html>
   <head>
     <title>Loginpage/Sign_up_page/530</title>
+	<meta charset="utf-8" />
+	 <title>Page Title: Site Name</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="css/screen.css" />
   </head>
 	 <body>
 	 
-	 <form>
-	<fieldset class =" account-info"> 
-		<label>Username
-			<input type =" text" name =" username">
-		</label >
-		
-		<label>Password
-			<input type =" password" name =" password">
-		</label>
-	</fieldset>
-	<fieldset class =" account-action">
-		<input class =" btn" type =" submit" name =" submit" value =" Login">
-		<label>
-			<input type =" checkbox" name =" remember"> Stay signed in
-		</label> 
-	</fieldset >
-</form>
-
-	     <form action ="/ login" method =" post" >
-
-    <h1>Sign in or Log on</h1>
+		 <form action ="/ login" method =" post" >
+	<table class="box"  border="1px">
+	<th>
+    <h1>Log On or Sign UP!</h1>
 	
-	<H3>Log On</H3>
+	<h3>Log On</h3>
 	
 	<fieldset>
-	<legend>Login</legend>
-	<p><label>Username<input type =" text" name =" username"></label >
-	<label>Password<input type =" text" name =" password"></label>
-	<button name =" submit"><strong>Submit</strong></button>
-	</p>
+
+	<!-- <li><legend>Login</legend></li>*/-->
+	<ol>
+	<li><label>Username</li>
+	<input type ="text" name ="username"></label >
+	<li><label>Password<br class="none" /></li>
+	<input type ="text" name ="password"></label>
+	<li><button name ="submit"><strong>Submit</strong></button></li>
+	</ol>
 	</fieldset>
 
 
-	<H3>Sign Up</H3>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	<p><input type =" text" name =" username"></p>
-	
-	     </form >
-     </body>
+	<h3>Sign Up</h3>
+<fieldset>
+	<!-- <li><legend>SignUp</legend></li>*/-->
+	<ol>
+	<li><label>First Name</li>
+	<input type ="text" name ="First Name">
+	<li>Last Name</li>
+	<input type ="text" name ="Last Name"></label>
+	<li><label>Chose a Username</li>
+	<input type ="text" name =" password"></label>
+	<li><label>Create Password</li>
+	<input type ="text" name =" password">
+	<li>Confirm Password</li>
+	<input type ="text" name =" password"></label>
+	<li><button name =" submit"><strong>Submit</strong></button></li>
+	</ol>
+				
+			</fieldset>
+				</th>
+				</table>
+		</form >
+	</body>
 </html>
+
